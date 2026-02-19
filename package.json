@@ -6,6 +6,6 @@
     "openclaw": "latest"
   },
   "scripts": {
-    "start": "openclaw gateway --port $PORT --bind custom --allow-unconfigured"
+    "start": "openclaw gateway --port $PORT --bind lan --token $OPENCLAW_GATEWAY_TOKEN"
   }
 }
